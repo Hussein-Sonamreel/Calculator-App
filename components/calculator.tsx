@@ -245,7 +245,7 @@ export default function Calculator() {
         <p className="text-muted-foreground text-sm">
           Built with ❤️ by{" "}
           <a
-            href="https://github.com/husseinsalim"
+            href="https://github.com/Hussein-Sonamreel/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-foreground hover:text-accent transition-colors underline decoration-dotted underline-offset-4"
