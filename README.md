@@ -1,9 +1,10 @@
 <!-- Adding animated banner header -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header&text=Calculator%20App&fontSize=40&animation=fadeIn&fontAlignY=35" alt="banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header&text=Calculator%20App&fontSize=40&animation=fadeIn&fontAlignY=35" alt="Calculator App Banner" />
 </p>
 
-# 🧮 Vanilla JavaScript Calculator
+<p align="center"><em> by Hussein</em></p>
+
 
 ### ⚡ Modern Calculator | React • TypeScript • Tailwind CSS
 
