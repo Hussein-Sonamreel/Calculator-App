@@ -3,7 +3,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header&text=Calculator%20App&fontSize=40&animation=fadeIn&fontAlignY=35" alt="Calculator App Banner" />
 </p>
 
-<p align="center"><em>by Hussein</em></p>
+<p align="center"><em>by Hussein Salim</em></p>
 
 ### ⚡ Modern Calculator | React • TypeScript • Tailwind CSS
 
