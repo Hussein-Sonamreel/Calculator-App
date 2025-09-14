@@ -1,48 +1,88 @@
-This calculator application is built with React and TypeScript for the frontend, utilizing Tailwind CSS for styling, incorporating UI components from shadcn/ui, and leveraging Next.js with its App Router for framework support.
+# Vanilla JavaScript Calculator
 
-Getting Started:
+A sleek, modern calculator built with vanilla JavaScript (React) featuring a professional black design with green accents.
 
-Prerequisites:
+## Features
 
-*   Node.js version 18 or higher.
-*   npm or yarn package manager.
+- **Full arithmetic operations**: Addition, subtraction, multiplication, and division
+- **Decimal support**: Handle floating-point calculations
+- **Responsive design**: Works seamlessly on desktop and mobile devices
+- **Modern UI**: Sleek black background with green operator buttons and intuitive layout
+- **Keyboard support**: Clean button interactions with hover effects
+- **Error handling**: Robust calculation logic with proper state management
 
-Installation:
+## Design
 
-1.  Clone the repository: `git clone <repository-url>`
-2.  Navigate to the project directory: `cd vanilla-javascript-calculator`
-3.  Install dependencies: `npm install`
-4.  Start the development server: `npm run dev`
-5.  Open your browser and go to [http://localhost:3000](http://localhost:3000).
+The calculator features a sophisticated color scheme:
+- **Background**: Sleek black for a professional look
+- **Calculator body**: Dark gray with subtle borders
+- **Number buttons**: Medium gray with white text
+- **Operator buttons**: Green accent color for easy identification
+- **Display**: Dark background with bright white text for excellent readability
 
-Usage:
+## Technology Stack
 
-*   Input digits by clicking the number buttons (0-9).
-*   Use the operators (+, -, ×, ÷) for calculations.
-*   Press `=` to compute the result.
-*   Press `C` to clear/reset the display.
-*   Use `.` for decimal input.
+- **Frontend**: React with TypeScript
+- **Styling**: Tailwind CSS with custom design tokens
+- **UI Components**: shadcn/ui component library
+- **Build Tool**: Next.js App Router
 
-Project Structure:
+## Getting Started
 
-```
+### Prerequisites
+
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+\`\`\`bash
+git clone <repository-url>
+cd vanilla-javascript-calculator
+\`\`\`
+
+2. Install dependencies:
+\`\`\`bash
+npm install
+\`\`\`
+
+3. Run the development server:
+\`\`\`bash
+npm run dev
+\`\`\`
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Usage
+
+- Click number buttons (0-9) to input numbers
+- Use operator buttons (+, -, ×, ÷) for calculations
+- Press "=" to execute the calculation
+- Press "C" to clear the display and reset
+- Click "." to add decimal points
+
+## Project Structure
+
+\`\`\`
 ├── app/
 │   ├── globals.css          # Global styles and design tokens
 │   ├── layout.tsx           # Root layout component
 │   └── page.tsx             # Main page component
 ├── components/
-│   ├── calculator.tsx       # Main calculator logic
+│   ├── calculator.tsx       # Main calculator component
 │   └── ui/                  # shadcn/ui components
 ├── README.md
 └── package.json
-```
+\`\`\`
 
-Contributing:
+## Contributing
 
-1.  Fork the repository.
-2.  Create a new feature branch: `git checkout -b feature/amazing-feature`
-3.  Make your changes and commit them: `git commit -m 'Add amazing feature'`
-4.  Push your branch to GitHub: `git push origin feature/amazing-feature`
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
 ## 📧 Contact
 
