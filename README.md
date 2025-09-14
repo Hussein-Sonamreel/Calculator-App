@@ -1,97 +1,130 @@
-# Vanilla JavaScript Calculator
+# 🧮 Vanilla JavaScript Calculator
 
-A sleek, modern calculator built with vanilla JavaScript (React) featuring a professional black design with green accents.
+A sleek, responsive calculator built with **React**, **TypeScript**, and **Tailwind CSS**, featuring a modern black UI with green accents. Designed for intuitive use across devices, this calculator handles full arithmetic operations with precision and style.
 
-## Features
+---
 
-- **Full arithmetic operations**: Addition, subtraction, multiplication, and division
-- **Decimal support**: Handle floating-point calculations
-- **Responsive design**: Works seamlessly on desktop and mobile devices
-- **Modern UI**: Sleek black background with green operator buttons and intuitive layout
-- **Keyboard support**: Clean button interactions with hover effects
-- **Error handling**: Robust calculation logic with proper state management
+## 🚀 Features
 
-## Design
+- ✅ **Arithmetic Operations** — Addition, subtraction, multiplication, and division  
+- 🔢 **Decimal Support** — Accurate floating-point calculations  
+- 📱 **Responsive Design** — Optimized for desktop and mobile  
+- 🎨 **Modern UI** — Black and green theme with intuitive layout  
+- ⌨️ **Keyboard Support** — Smooth interactions and hover effects  
+- 🛡️ **Error Handling** — Robust logic and state management
 
-The calculator features a sophisticated color scheme:
-- **Background**: Sleek black for a professional look
-- **Calculator body**: Dark gray with subtle borders
-- **Number buttons**: Medium gray with white text
-- **Operator buttons**: Green accent color for easy identification
-- **Display**: Dark background with bright white text for excellent readability
+---
 
-## Technology Stack
+## 🎨 Design Highlights
 
-- **Frontend**: React with TypeScript
-- **Styling**: Tailwind CSS with custom design tokens
-- **UI Components**: shadcn/ui component library
-- **Build Tool**: Next.js App Router
+| Element            | Style Description                          |
+|--------------------|---------------------------------------------|
+| Background         | Sleek black for a professional aesthetic    |
+| Calculator Body    | Dark gray with subtle borders               |
+| Number Buttons     | Medium gray with white text                 |
+| Operator Buttons   | Vibrant green for clear visual distinction  |
+| Display            | Dark background with bright white text      |
 
-## Getting Started
+---
+
+## 🧪 Examples of Calculations
+
+Here are a few sample interactions to showcase the calculator’s capabilities:
+
+| Input Sequence            | Expected Output | Description                          |
+|---------------------------|------------------|--------------------------------------|
+| `7 + 3 =`                 | `10`             | Basic addition                       |
+| `9 - 4 =`                 | `5`              | Basic subtraction                    |
+| `6 × 7 =`                 | `42`             | Multiplication                       |
+| `8 ÷ 2 =`                 | `4`              | Division                             |
+| `5 + 3 × 2 =`             | `11`             | Operator precedence (PEMDAS)         |
+| `0.1 + 0.2 =`             | `0.3`            | Floating-point precision             |
+| `12 ÷ 0 =`                | `Error`          | Division by zero handling            |
+| `C`                       | `0`              | Clear/reset display                  |
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React + TypeScript  
+- **Styling**: Tailwind CSS with custom tokens  
+- **UI Components**: [shadcn/ui](https://ui.shadcn.com)  
+- **Framework**: Next.js (App Router)
+
+---
+
+## 📦 Getting Started
 
 ### Prerequisites
 
-- Node.js 18+ 
+- Node.js v18+  
 - npm or yarn
 
-### Installation
+### Installation Steps
 
-1. Clone the repository:
-\`\`\`bash
+```bash
 git clone <repository-url>
 cd vanilla-javascript-calculator
-\`\`\`
-
-2. Install dependencies:
-\`\`\`bash
 npm install
-\`\`\`
-
-3. Run the development server:
-\`\`\`bash
 npm run dev
-\`\`\`
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+---
 
-## Usage
+## Usage Guide
 
-- Click number buttons (0-9) to input numbers
-- Use operator buttons (+, -, ×, ÷) for calculations
-- Press "=" to execute the calculation
-- Press "C" to clear the display and reset
-- Click "." to add decimal points
+- Click number buttons (0–9) to input digits  
+- Use operators (+, −, ×, ÷) for calculations  
+- Press `=` to compute  
+- Press `C` to reset  
+- Use `.` for decimal input
+
+---
 
 ## Project Structure
 
-\`\`\`
+```bash
 ├── app/
 │   ├── globals.css          # Global styles and design tokens
 │   ├── layout.tsx           # Root layout component
 │   └── page.tsx             # Main page component
 ├── components/
-│   ├── calculator.tsx       # Main calculator component
+│   ├── calculator.tsx       # Main calculator logic
 │   └── ui/                  # shadcn/ui components
 ├── README.md
 └── package.json
-\`\`\`
 
+---
 ## Contributing
+1. Fork the repo
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+2. Create a feature branch:
+git checkout -b feature/amazing-feature
 
-## 📧 Contact
+3. Commit your changes:
+git commit -m 'Add amazing feature'
 
-**Website**: [digitalhus.com](https://digitalhus.com)  
-**Email**: hussein@digitalhus.com  
-**LinkedIn**: [linkedin.com/in/husseinsalim](https://linkedin.com/in/husseinsalim)  
-**Twitter**: [@husseinsalim25](https://twitter.com/husseinsalim25)  
-**Location**: Toronto, ON, Canada
+4. Push to GitHub:
+git push origin feature/amazing-feature
 
-## 📄 License
+5. Submit a Pull Request
 
-This project is open source and available under the MIT License.
+---
+## Contact
+🌐 digitalhus.com
+
+📧 hussein@digitalhus.com
+
+💼 LinkedIn
+
+🐦 Twitter
+
+📍 Toronto, ON, Canada
+
+License
+This project is licensed under the MIT License — feel free to use, modify, and share.
+
+Code
+Let me know if you'd like help adding badges, deployment instructions, or a visual walkthrough to make this even more engaging.
+
+Want me to help you add GitHub badges like `build status`, `license`, or `live demo` next? Or maybe a GIF preview of the calculator in action? Let's make this README pop!
