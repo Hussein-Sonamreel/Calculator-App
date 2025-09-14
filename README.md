@@ -1,6 +1,3 @@
-Absolutely, Hussein! Here's your updated Markdown with the correct live demo link integrated:
-
-```markdown
 <!-- Adding animated banner header -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header&text=Calculator%20App&fontSize=40&animation=fadeIn&fontAlignY=35" alt="Calculator App Banner" />
