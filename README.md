@@ -143,7 +143,7 @@ Navigate to [http://localhost:3000](http://localhost:3000)
   </a>
 </p>
 
-**Location:** 📍 Toronto, ON, Canada
+**Location:** 📍Nairobi, Kenya
 
 ---
 
