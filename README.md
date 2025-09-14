@@ -1,10 +1,8 @@
-<!-- Adding animated banner header -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header&text=Calculator%20App&fontSize=40&animation=fadeIn&fontAlignY=35" alt="Calculator App Banner" />
-</p>
+# 🧮 Calculator App
 
-<p align="center"><em> by Hussein</em></p>
+**by Hussein**
 
+---
 
 ### ⚡ Modern Calculator | React • TypeScript • Tailwind CSS
 
@@ -14,68 +12,60 @@ Perfect for everyday calculations with **full arithmetic operations, decimal sup
 ---
 
 ## 🌐 Live Demo
-Check out the live calculator → [Calculator App Demo](#)
+
+🔗 [Calculator App Demo](https://v0-vanilla-java-script-calculator.vercel.app/)
 
 ---
 
 ## ✨ Features
 
-### 🖥️ Core Functionality
-- **Full arithmetic operations**: Addition, subtraction, multiplication, and division
-- **Decimal support**: Handle floating-point calculations with precision
-- **Error handling**: Robust calculation logic with proper state management
-- **Keyboard support**: Clean button interactions with hover effects
+#### 🖥️ Core Functionality
 
-### 🎨 Modern Design
-- **Sleek black background** for a professional look
-- **Green operator buttons** for easy identification
-- **Responsive layout** that works seamlessly on desktop and mobile
-- **Intuitive UI** with excellent readability and accessibility
+- ✅ Full arithmetic operations: Addition, subtraction, multiplication, and division  
+- 🔢 Decimal support: Handle floating-point calculations with precision  
+- 🛡️ Error handling: Robust calculation logic with proper state management  
+- ⌨️ Keyboard support: Clean button interactions with hover effects  
+
+#### 🎨 Modern Design
+
+- 🖤 Sleek black background for a professional look  
+- 💚 Green operator buttons for easy identification  
+- 📱 Responsive layout that works seamlessly on desktop and mobile  
+- 👁️ Intuitive UI with excellent readability and accessibility  
 
 ---
 
 ## 🛠️ Tech Stack & Tools
 
-**Frontend:** React, TypeScript, Tailwind CSS  
-**UI Library:** shadcn/ui components  
-**Build Tool:** Next.js App Router  
-**Styling:** Custom design tokens with semantic color system
+- **Frontend**: React, TypeScript, Tailwind CSS  
+- **UI Library**: shadcn/ui components  
+- **Build Tool**: Next.js App Router  
+- **Styling**: Custom design tokens with semantic color system  
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js" width="40" height="40" style="background:white; border-radius:50%;"/>
-  <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind" width="40" height="40"/>
-</p>
+**Tech Icons:**
+
+- JavaScript  
+- TypeScript  
+- React  
+- Next.js  
+- Tailwind CSS  
 
 ---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js 18+ 
+
+- Node.js 18+  
 - npm or yarn
 
 ### Installation
 
-1. **Clone the repository:**
-\`\`\`bash
+```bash
 git clone <repository-url>
 cd vanilla-javascript-calculator
-\`\`\`
-
-2. **Install dependencies:**
-\`\`\`bash
 npm install
-\`\`\`
-
-3. **Run the development server:**
-\`\`\`bash
 npm run dev
-\`\`\`
-
-4. **Open your browser:**
 Navigate to [http://localhost:3000](http://localhost:3000)
 
 ---
@@ -144,7 +134,7 @@ Navigate to [http://localhost:3000](http://localhost:3000)
   </a>
 </p>
 
-**Location:** 📍 Toronto, ON, Canada
+**Location:** 📍 Nairobi Kenya
 
 ---
 
