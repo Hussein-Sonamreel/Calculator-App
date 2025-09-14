@@ -156,6 +156,3 @@ This project is open source and available under the MIT License.
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer" alt="footer" />
 </p>
-```
-
-Let me know if you'd like to add deployment instructions for Vercel, a GIF preview, or a badge for "Made with ❤️ by Hussein" to top it off. This README is already 🔥.
