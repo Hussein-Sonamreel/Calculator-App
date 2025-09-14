@@ -66,25 +66,41 @@ git clone <repository-url>
 cd vanilla-javascript-calculator
 npm install
 npm run dev
-Navigate to [http://localhost:3000](http://localhost:3000)
+
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
 ## 📱 Usage
 
-| Action | Description |
-|--------|-------------|
-| **Numbers (0-9)** | Input numbers for calculations |
-| **Operators (+, -, ×, ÷)** | Perform arithmetic operations |
-| **Equals (=)** | Execute the calculation |
-| **Clear (C)** | Reset display and clear memory |
-| **Decimal (.)** | Add decimal points to numbers |
+| Action              | Description                            |
+|---------------------|----------------------------------------|
+| **Numbers (0-9)**   | Input numbers for calculations         |
+| **Operators (+, -, ×, ÷)** | Perform arithmetic operations     |
+| **Equals (=)**      | Execute the calculation                |
+| **Clear (C)**       | Reset display and clear memory         |
+| **Decimal (.)**     | Add decimal points to numbers          |
+
+---
+
+## 🧪 Examples of Calculations
+
+| Input Sequence      | Expected Output | Description                          |
+|---------------------|------------------|--------------------------------------|
+| `7 + 3 =`           | `10`             | Basic addition                       |
+| `9 - 4 =`           | `5`              | Basic subtraction                    |
+| `6 × 7 =`           | `42`             | Multiplication                       |
+| `8 ÷ 2 =`           | `4`              | Division                             |
+| `5 + 3 × 2 =`       | `11`             | Operator precedence (PEMDAS)         |
+| `0.1 + 0.2 =`       | `0.3`            | Floating-point precision             |
+| `12 ÷ 0 =`          | `Error`          | Division by zero handling            |
+| `C`                 | `0`              | Clear/reset display                  |
 
 ---
 
 ## 📁 Project Structure
 
-\`\`\`
+```bash
 ├── app/
 │   ├── globals.css          # Global styles and design tokens
 │   ├── layout.tsx           # Root layout component
@@ -94,56 +110,55 @@ Navigate to [http://localhost:3000](http://localhost:3000)
 │   └── ui/                  # shadcn/ui components
 ├── README.md
 └── package.json
-\`\`\`
+```
 
 ---
 
 ## 🏆 Highlights
 
-- 🎨 **Modern Design System** — Custom Tailwind CSS tokens with semantic colors
-- ⚡ **Performance Optimized** — Built with Next.js and React best practices
-- 📱 **Mobile-First** — Responsive design that works on all devices
-- ♿ **Accessible** — Proper ARIA labels and keyboard navigation
+- 🎨 Modern Design System — Custom Tailwind CSS tokens with semantic colors  
+- ⚡ Performance Optimized — Built with Next.js and React best practices  
+- 📱 Mobile-First — Responsive design that works on all devices  
+- ♿ Accessible — Proper ARIA labels and keyboard navigation  
 
 ---
 
 ## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+1. Fork the repository  
+2. Create a feature branch  
+   ```bash
+   git checkout -b feature/amazing-feature
+   ```
+3. Commit your changes  
+   ```bash
+   git commit -m 'Add amazing feature'
+   ```
+4. Push to GitHub  
+   ```bash
+   git push origin feature/amazing-feature
+   ```
+5. Submit a Pull Request
 
 ---
 
 ## 📫 Let's Connect
 
-<p align="center">
-  <a href="https://linkedin.com/in/husseinsalim" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:hussein@digitalhus.com">
-    <img src="https://img.shields.io/badge/Email-Say_Hello-D14836?style=for-the-badge&logo=gmail" alt="Email"/>
-  </a>
-  <a href="https://digitalhus.com" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-View_Live-000000?style=for-the-badge&logo=vercel" alt="Portfolio"/>
-  </a>
-  <a href="https://twitter.com/husseinsalim25" target="_blank">
-    <img src="https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter" alt="Twitter"/>
-  </a>
-</p>
-
-**Location:** 📍 Nairobi Kenya
+- [LinkedIn](https://linkedin.com/in/husseinsalim)  
+- [Email](mailto:hussein@digitalhus.com)  
+- [Portfolio](https://digitalhus.com)  
+- [Twitter](https://twitter.com/husseinsalim25)  
+- Location: Nairobi, Kenya
 
 ---
 
 ## 📄 License
 
-This project is open source and available under the MIT License.
+This project is open source and available under the **MIT License**.
 
 ---
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer" alt="footer" />
-</p>
+## 🧩 Credits
+
+Made with ❤️ by Hussein
+```
